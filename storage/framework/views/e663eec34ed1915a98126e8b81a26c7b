@@ -1,0 +1,28 @@
+<!-- 存放在 resources/views/photo/child.blade.php -->
+
+
+<?php $__env->startSection('title','This is a photo page!'); ?>;
+
+<?php $__env->startSection('sidebar'); ?>
+@param
+<p>Hello</p>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+
+<table>
+<tr>
+<th>Nu</th>
+<th>Name</th>
+<th>Prices</th>
+</tr>
+<tr>
+<?php for($i=0;$i<count('$products');$i++): ?>
+<td><?php echo e($i); ?></td>
+<td><?php echo e($products[$i]); ?></td>
+<td><?php echo e($prices[$i]); ?></td>
+<?php endfor; ?>
+</tr>
+</table>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('photo.new', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,13 @@
+<html>
+	<head><title>home</title>
+	</head>
+	<body> 
+		
+	  <!-- <?php if ( ! (count($items)>5)): ?> -->
+		<!-- 数量不够 -->
+	  <!-- <?php endif; ?> -->
+		
+
+			
+	</body>
+</html>

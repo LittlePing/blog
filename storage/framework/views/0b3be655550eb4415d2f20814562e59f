@@ -1,0 +1,17 @@
+<!--存放在resource/views/fedora/index.blade.php-->
+
+
+<!-- filling the title -->
+<?php $__env->startSection('title','fedora'); ?>
+
+<!-- filling the content -->
+<?php $__env->startSection('content'); ?>
+	
+<?php $__env->stopSection(); ?>
+<!-- filling the footer -->
+<?php $__env->startSection('footer'); ?>
+<?php $__env->stopSection(); ?>
+
+
+
+<?php echo $__env->make('fedora.master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

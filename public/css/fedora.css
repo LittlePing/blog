@@ -1,0 +1,232 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+  }
+
+
+  /**
+ * Basic styling
+ */
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #333;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%; 
+}
+
+
+
+/*h2,a h2 a:visited {
+  color: #3c6eb4;
+}*/
+
+
+ /* *
+ * Links*/
+ 
+/*a {
+  color: white;
+  text-decoration: ;
+}*/
+  a:visited {
+    color: #1756a9; 
+}
+/*  a:hover {
+    color: #111;
+    text-decoration: underline; 
+}*/
+
+
+
+/*
+Site header
+ */
+#logo-col img {
+  margin-bottom: 15px;
+  float: left;
+}
+
+#logo-col h1 {
+  margin: 0;
+  padding: 0;
+} 
+
+#logo-col a {
+  display: block;
+  height: 46px;
+}
+
+#logo-col a span{
+  display: none;
+}
+
+
+/*header style: ;*/
+#splash {
+  color: white;
+  width: 100%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+   background-image: url("/image/background.jpg");
+  /*background-color: #3c6db3 ; */
+  background-size: cover !important;
+}
+#splash a {
+  color: orange;
+}
+
+
+#splash .col-sm-4 .large {
+  margin-right: -50px;
+}
+
+#nav {
+  color: white;
+}
+
+.langSelector {
+  margin-top: 10px;
+}
+
+#search {
+  
+  margin-top: 10px;
+}
+#small-line {
+  width: 100px;
+  height: 100px;
+  transition :width 4s;
+  -webkit-transition: width 4s;
+}
+#small-line:hover {
+  width: 400px;
+}
+
+
+/*headliness*/
+
+#headliness {
+  margin-top: 40px;
+}
+
+#headliness .mobile {
+  margin-top: 40px;
+}
+
+#attribution {
+  margin-top: 40px;
+}
+
+#front-nav {
+  margin-top: 20px;
+  margin-bottom: 30px;
+/*  background-image: url('/image/bg.jpg');
+  background-size: 100%;*/
+
+/*  background-color: #959595;
+*/
+}
+
+#front-nav h2 {
+  color: blue;
+}
+/*
+.wrapper {
+    height: auto;
+    background-size: cover;
+    background-image: url('/image/footerimage.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+
+}*/
+
+
+/*wrapper*/
+
+#top-title {
+  padding-top: 70px;
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+#small-line {
+  border-color: #333;
+  width: 100px;
+  border-bottom: 1px solid white;
+  margin: auto;
+}
+
+#four-apps {
+  margin-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+#four-apps a {
+  color: white;
+}
+
+#four-apps h4 {
+  margin-top: 10px;
+}
+
+/*#four-apps button {
+  margin-right: 0px;
+}
+*/
+
+
+
+
+/*blog*/
+#blog-headliness {
+ /* background-image: url("/image/footer_lodyas.png");*/
+  /*background-color: black;*/
+  color: white;
+  background-repeat: repeat;
+  background-image: url('/image/bg.jpg');
+  padding: 40px 0;
+  width: 100% !important;
+  padding-bottom: 80px ;
+  margin-bottom: 0px;
+
+  /*margin-top: 40px;
+  /*padding-top: 40px;*/
+}
+
+#blog-headliness h2 span {
+  background-color: orange: ; !important;
+  font-size: 18px;
+  /*padding: 0px 5px 2px;*/
+  margin-bottom: 50px;
+  text-transform: uppercase;  
+  color: blue;
+/*  padding-bottom: -20px;
+*/}
+
+
+
+
+/*footer*/
+footer.footer {
+  padding-top: 40px;
+  background-color: #e6e6e6;
+}
+
+
+
+#footer-end {
+  margin-top: 20px;
+}

@@ -1,0 +1,5 @@
+<html>
+	<body>
+		<h1>hello <?php echo e($name); ?>.</h1>
+	</body>
+</html>

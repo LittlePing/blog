@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>getting.php</title>
+</head>
+<body>
+	<div>
+	<ul style="float:left">
+		<?php foreach($animals as $ani): ?>
+		 <li>Animal:<?php echo e($ani); ?></li>
+		 <?php endforeach; ?>
+	   </ul>
+    <?php /*<ul style="float:left;list-style:none">
+		<?php foreach($prices as $pr): ?>
+		<li>
+		Prices:<?php echo e($pr); ?>
+
+		</li>
+		<?php endforeach; ?>
+	</ul>*/ ?>
+	</div>
+</body>
+</html>

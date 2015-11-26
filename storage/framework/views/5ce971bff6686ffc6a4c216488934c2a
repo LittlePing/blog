@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>getting.php</title>
+</head>
+<body>
+	<div>
+	<ul style="float:left";>
+		<?php foreach($products as $p): ?>
+		 <li>Product:<?php echo e($p); ?></li>
+		 <?php endforeach; ?>
+		
+	</ul>
+	<ul style="float:left;list-style:none">
+		<?php foreach($prices as $pr): ?>
+		<li>
+		Prices:<?php echo e($pr); ?>
+
+		</li>
+		<?php endforeach; ?>
+	</ul> 
+	</div>
+</body>
+</html>

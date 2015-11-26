@@ -1,0 +1,24 @@
+
+<!-- 存放在 resources/views/photo/new.blade.php -->
+
+<html>
+    <head>
+        <title>App Name - <?php echo $__env->yieldContent('title'); ?></title>
+    </head>
+    <body>
+    <div class="header">
+            This is the master sidebar.
+    </div>
+            <?php $__env->startSection('sidebar'); ?>
+            This is the container.
+             <?php echo $__env->yieldSection(); ?>
+    <div class="container">
+              <?php echo $__env->yieldContent('content'); ?>
+    </div>
+     <div class="footer">
+        Copyright @2015-2055 laravelacademy
+     </div>
+    </body>
+</html>
+
+
