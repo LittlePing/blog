@@ -22,7 +22,7 @@ class PostController extends Controller
         $posts = Post::orderBy('id', 'asc')->get();
         //$posts = Post::where('id','>',1)->take(2)->get();
         #dd($posts);
-        return view('post.index', ['posts' => $posts]);
+        return view('post.index', ['posts0.' => $posts]);
     }
 
     /**

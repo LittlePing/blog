@@ -110,11 +110,21 @@ Site header
   width: 400px;
 }
 
+/*carousel*/
+#carousel-section {
+  height:  !important;
+}
+
+
 
 /*headliness*/
 
 #headliness {
   margin-top: 40px;
+  margin-bottom: 30px;
+  display: block;
+  text-align: center;
+
 }
 
 #headliness .mobile {
@@ -194,9 +204,10 @@ Site header
 #blog-headliness {
  /* background-image: url("/image/footer_lodyas.png");*/
   /*background-color: black;*/
-  color: white;
+  color: white ;
+
   background-repeat: repeat;
-  background-image: url('/image/bg.jpg');
+  background-image: url('/image/288000.jpg');
   padding: 40px 0;
   width: 100% !important;
   padding-bottom: 80px ;
@@ -212,11 +223,13 @@ Site header
   /*padding: 0px 5px 2px;*/
   margin-bottom: 50px;
   text-transform: uppercase;  
-  color: blue;
+  color: ;
 /*  padding-bottom: -20px;
 */}
 
-
+ p.headliness-aritcle {
+  font-weight: 500!important;
+}
 
 
 /*footer*/

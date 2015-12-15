@@ -1,0 +1,91 @@
+.header {
+	
+}
+
+
+.sign-up h3 {
+	color: gray;
+	
+
+
+}
+
+.github {
+	border: 2px solid ;
+	border-color: gray;
+	border-radius: 15px;
+}
+
+
+.img-circle {
+	margin-top: 1px;
+}
+
+ .navbar-header .navbar-toggle {
+	display: ;
+	position: relative;
+    float: right;
+    margin-right: 10px;
+    padding: 9px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: gray;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.sperator {
+	border: 1px solid #d8dee4;
+	margin: 20px 0px;
+	height: 0px;
+	text-align: center;
+}
+
+
+.navbar-btn {
+	border-color: orange;
+	color: #f35757;
+	background-color: transparent;
+}
+
+.btn-danger-outline {
+    color: #f35757;
+    background-color: transparent;
+    border-color: orange;
+}
+
+.btn-danger-outline button:hover {
+	background-color: red;
+}
+
+#carousel-example-generic {
+	
+	margin-top: -120px;
+	padding-top: 100px;
+*/	padding-bottom: 200px;
+
+/*	margin: auto auto;
+
+	*/
+}
+
+.carousel-indicators {
+	margin-bottom: 100px;
+}
+
+
+.carousel-inner {
+	/*background-repeat: repeat;
+	min-height: 100px;
+	max-height: 500px;
+	padding-bottom: 1000px;*/
+/*	margin-bottom: 200px;
+*/}
+
+.carousel-caption h3{
+/*	font-size: 20px;
+*/	/*color: orange;*/
+}
+
+

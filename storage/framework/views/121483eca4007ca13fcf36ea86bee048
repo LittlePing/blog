@@ -12,7 +12,7 @@
     <link href ="/css/bootstrap.min.css" rel ="stylesheet" >
     <link href ="/css/fedora.css" rel ="stylesheet" > 
     <link rel="stylesheet" href="responsive-nav.css">
-
+    
 </head>
 <body>
     <!-- 将头文件包含进来 -->
@@ -63,6 +63,11 @@
      // Function: Close callback 
     });
     $('#nav').navigation.toggle()
+    
+    // carousel item
+    $('.carousel').carousel({
+            interval:3000
+        })
     </script>
 </body>
 </html>

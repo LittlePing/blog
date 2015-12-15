@@ -70,9 +70,9 @@
 				<a href="#"><img src="/image/play.png"></a>
 			</div>
 			<div class="col-sm-5">
-				<p>Fedora is sponsored by Red Hat.</p>
-				<p><a href="#">Learn more about the relationship between Red Hat and Fedora »</a></p>
-				<p>© 2015 Red Hat, Inc. and others.</p>
+				<p>Fedora is sponsored by Little Ping.</p>
+				<p><a href="#">Learn more about the relationship between Little Ping and Fedora »</a></p>
+				<p>© 2015 Little Ping, Inc. and others.</p>
 			</div>
 			<div class="col-sm-5">
 				<p></p>

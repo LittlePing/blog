@@ -1,0 +1,31 @@
+
+<html>
+<head>
+	<title>edit.blade.php</title>
+</head>
+<body>
+	<div>
+	<form action="/fedora/save/<?php echo e($fedoras['id']); ?>" >
+       ID:<input name="id" value="<?php echo e($fedoras['id']); ?>"/><br>
+       Username:<input name="name" value="<?php echo e($fedoras['name']); ?>"/><br>
+       Password:<input name="password" type="password" value="<?php echo e($fedoras['password']); ?>"/><br>
+       Email:<input name="email" value="<?php echo e($fedoras['email']); ?>"/><br>
+       <input type="submit" value="保存"/>
+	</form>
+	</div>
+</body>
+</html>
+<?php /*<ul style="float:left">*/ ?>
+		<?php /*<?php foreach($posts as $p): ?>*/ ?>
+	     <?php /*<li>ID:<?php echo e($p->id); ?></li>*/ ?>
+		 <?php /*<li>Title:<?php echo e($p->title); ?></li>*/ ?>
+		 <?php /*<li>Content:<?php echo e($p->content); ?></li>*/ ?>
+		 <?php /*<?php endforeach; ?>*/ ?>
+	   <?php /*</ul>*/ ?>
+	<?php /*<ul style="float:left;list-style:none">*/ ?>
+		<?php /*<?php foreach($prices as $pr): ?>*/ ?>
+		<?php /*<li>*/ ?>
+		<?php /*Prices:<?php echo e($pr); ?>*/ ?>
+		<?php /*</li>*/ ?>
+		<?php /*<?php endforeach; ?>*/ ?>
+	<?php /*</ul> */ ?>

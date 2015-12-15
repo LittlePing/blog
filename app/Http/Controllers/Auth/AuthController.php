@@ -20,6 +20,12 @@ class AuthController extends Controller
     | a simple trait to add these behaviors. Why don't you explore it?
     |
     */
+   
+
+
+    protected $redirectPath = '/profile';
+    protected $username = 'name';
+
 
     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
@@ -30,6 +36,7 @@ class AuthController extends Controller
      */
     public function __construct()
     {
+
         $this->middleware('guest', ['except' => 'getLogout']);
     }
 
@@ -39,6 +46,18 @@ class AuthController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
+    // public function getLogin()
+    // {
+    //     return 
+    // // }
+
+    //  public function getRegister()
+    // {
+    //     return view('fedora.register');
+    // }
+
+
+
     protected function validator(array $data)
     {
         return Validator::make($data, [

@@ -14,25 +14,39 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     //创建用户登陆方法，实现用户登陆
-    public function Login()
-    {
-        return view('user.Login');
+    // public function Login()
+    // {
+    //     return view('user.Login');
+    // }
+    // //创建submitLogin方法来处理用户登陆
+    // public function submitLogin(Request $request)
+    // {
+    //     //通过判断用户请求输入的用户名和密码
+    //     $username = $request->input('username');
+    //     $password = $request->input('password');
+    //     if($username=="ping"&&$password=="123456"){
+    //         $request->session()->push('username',$username);
+    //         return view('welcome');
+    //     }
+    //     else
+    //     {
+    //         //登陆验证失败继续返回登陆页面
+    //         return view('user.Login');
+    //     }
+    // }
+    // 
+    // 
+    
+     public function __construct(){
+        $this->middleware('auth');
     }
-    //创建submitLogin方法来处理用户登陆
-    public function submitLogin(Request $request)
+
+    public function profile(Request $request)
     {
-        //通过判断用户请求输入的用户名和密码
-        $username = $request->input('username');
-        $password = $request->input('password');
-        if($username=="ping"&&$password=="123456"){
-            $request->session()->push('username',$username);
-            return view('welcome');
-        }
-        else
-        {
-            //登陆验证失败继续返回登陆页面
-            return view('user.Login');
-        }
+        $user = $request->user();
+        echo $user['name'].'登录成功！';
+        
+
     }
 
     /**

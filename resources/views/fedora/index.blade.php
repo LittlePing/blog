@@ -3,7 +3,7 @@
 @extends('fedora.master')
 
 <!-- filling the title -->
-@section('title','fedora')
+@section('title','LittlePing')
 
 <!-- filling the content -->
 @section('content')

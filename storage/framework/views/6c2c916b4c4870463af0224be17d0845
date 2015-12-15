@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>show.blade.php</title>
+</head>
+<body>
+	<div>
+	   <table>
+	    <th>ID</th>
+	    <th>Username</th>
+	    <th>Password</th>
+	    <th>Email</th>
+      <?php foreach($fedoras as $f): ?>
+	    <tr>
+        <td><?php echo e($f->id); ?></td>
+        <td><?php echo e($f->name); ?></td>
+        <td><?php echo e($f->password); ?></td>
+        <td><?php echo e($f->email); ?></td>
+        </tr>
+     <?php endforeach; ?>
+	   </table>
+	</div>
+</body>
+</html>
