@@ -29,7 +29,7 @@
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 									<span class="clear">
 										<span class="block m-t-xs">
-											<strong class="font-bold">Little Ping</strong>
+											<strong class="font-bold">LittlePing</strong>
 										</span>
 										<span class="text-tumed text-xs block">admin<b class="caret"></b></span>
 									</span>
@@ -68,11 +68,11 @@
                         	<a href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
                    			 </li>
                     		<li>
-                            <li><a href="toastr_notifications.html">用户管理</a>
+                            <li><a href="/fedora/table">用户管理</a>
                             </li>
-                            <li><a href="nestable_list.html">博客管理</a>
+                            <li><a href="">博客管理</a>
                             </li>
-                            <li><a href="timeline_v2.html">时间轴</a>
+                            <li><a href="/fedora/timeline">时间轴</a>
                             </li>
                             <li><a href="forum_main.html">论坛</a>
                             </li>
@@ -304,7 +304,7 @@
             </div>
         </div>
         
-        <div class="col-md-10">
+        <div class="col-md-10 col-md-offset-10" >
             <nav>
                 <ul class="pagination">
                     <li><a href="#" aria-lable="Previous"><span aria-hidden="true">&laquo;</span></a>

@@ -68,7 +68,7 @@
                         	<a href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
                    			 </li>
                     		<li>
-                            <li><a href="toastr_notifications.html">用户管理</a>
+                            <li><a href="/fedora/table">用户管理</a>
                             </li>
                             <li><a href="nestable_list.html">博客管理</a>
                             </li>

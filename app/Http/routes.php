@@ -223,6 +223,13 @@ Route::get('/fedora/add','FedoraController@edit');
 Route::get('/fedora/delete/{id}','FedoraController@destroy');
 
 
+//timeline
+Route::get('fedora/timeline',function(){
+	return view('fedora.modules.timeline');
+});
+
+
+
 
 
 // //routing to sign up 

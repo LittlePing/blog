@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>personal manager</title>
-	<meta charset="utf-8">
+    <title>personal manager</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/styles.css">
-	<link href="/css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/Content/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Content/font-awesome/css/font-awesome.min.css" />
 
 <!-- you need to include the shieldui css and js assets in order for the charts to work -->
-	<link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
-	<script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
-
+    <!-- <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+ -->
 </head>
 <body>
 <div id="wrapper">
-	  <div class="row">
-	  	<div class="col-md-2">
-			<nav class="navbar-default navbar-static-side navbar-invers" role="navigation">
-				<div class="sidebar-collapse">
-					<ul class="nav" id="side-menu">
-						<li class="navbar-header" >
-							<div class="dropdown profile-element">
-							<span>
-								<img src="/image/288428.jpg" alt="image" class="img-circle" width="60" height="60">
-							</span>
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-									<span class="clear">
-										<span class="block m-t-xs">
-											<strong class="font-bold">LittlePing</strong>
-										</span>
-										<span class="text-tumed text-xs block">admin<b class="caret"></b></span>
-									</span>
-								</a>
-								<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
+      <div class="row">
+        <div class="col-md-2">
+            <nav class="navbar-default navbar-static-side navbar-invers" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="navbar-header" >
+                            <div class="dropdown profile-element">
+                            <span>
+                                <img src="/image/288428.jpg" alt="image" class="img-circle" width="60" height="60">
+                            </span>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <span class="clear">
+                                        <span class="block m-t-xs">
+                                            <strong class="font-bold">LittlePing</strong>
+                                        </span>
+                                        <span class="text-tumed text-xs block">admin<b class="caret"></b></span>
+                                    </span>
+                                </a>
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
 
-							<ul class="dropdown-menu animated fadeInRight m-t-xs">
-								<li><a href="form_avatar.html">修改头像</a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="form_avatar.html">修改头像</a>
                                 </li>
                                 <li><a href="profile.html">个人资料</a>
                                 </li>
@@ -53,26 +53,26 @@
                                 <li class="divider"></li>
                                 <li><a href="/auth/login">安全退出</a>
                                 </li>
-							</ul>
-						</div>
-						<!--  <div class="logo-element">
+                            </ul>
+                        </div>
+                        <!--  <div class="logo-element">
                            HelloTree
                         </div> -->
-					</li>
-				</ul>
+                    </li>
+                </ul>
 
-				<div class="navbar-collapse">
-				 <ul class="nav ">
-				 	<div class="nav navbar-dropdown">
-				  			<li>
-                        	<a href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
-                   			 </li>
-                    		<li>
-                            <li><a href="/fedora/table">用户管理</a>
+                <div class="navbar-collapse">
+                 <ul class="nav ">
+                    <div class="nav navbar-dropdown">
+                            <li>
+                            <a href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
+                             </li>
+                            <li>
+                            <li><a href="toastr_notifications.html">用户管理</a>
                             </li>
-                            <li><a href="">博客管理</a>
+                            <li><a href="nestable_list.html">博客管理</a>
                             </li>
-                            <li><a href="/fedora/timeline">时间轴</a>
+                            <li><a href="timeline_v2.html">时间轴</a>
                             </li>
                             <li><a href="forum_main.html">论坛</a>
                             </li>
@@ -87,44 +87,44 @@
                             <li><a href="chat_view.html">聊天窗口</a>
                             </li>
                             </li>
-                 	 </div>
-              	  </ul>
-				</div>
-			</div>
-		</nav>
-	</div>	
+                     </div>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+    </div>  
 
          <!-- top-link -->
-		<div class="col-md-3">
-				<div class="wrapper-right">
-					<nav class="navbar-default" role="navigation">
-						<form class="navbar-form navbar-left" role="search">
- 						<div class="form-group">
-   							<input type="text" class="form-control" placeholder="Search">
-  						</div>
- 							 <button type="submit" class="btn btn-default">Search</button>
-						</form>
+        <div class="col-md-3">
+                <div class="wrapper-right">
+                    <nav class="navbar-default" role="navigation">
+                        <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                             <button type="submit" class="btn btn-default">Search</button>
+                        </form>
 
 
-						
-					</nav>
-				</div>
-			</div>
+                        
+                    </nav>
+                </div>
+            </div>
 
-		<div class="col-md-4 ">
-						<ul class="nav navbar-nav">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Blog</a></li>
-								<li><a href="#">Article</a></li>
-								<li><a href="#">Photos</a></li>
-								<li><a href="#">Chat</a></li>
-								<li><a href="#">Contact</a></li>
-						</ul>
-		</div>
+        <div class="col-md-4 ">
+                        <ul class="nav navbar-nav">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Article</a></li>
+                                <li><a href="#">Photos</a></li>
+                                <li><a href="#">Chat</a></li>
+                                <li><a href="#">Contact</a></li>
+                        </ul>
+        </div>
 
 
-			<div class="col-md-3">
-				<ul class="nav navbar-top-links navbar-left">
+            <div class="col-md-3">
+                <ul class="nav navbar-top-links navbar-left">
                         <li class="dropdown">
                             <span class="m-r-sm text-muted welcome-message"><a href="index.html" title="返回首页"><i class="fa fa-home"></i></a>欢迎使用H+后台主题</span>
                         </li>
@@ -209,122 +209,85 @@
                             </a>
                         </li>
                 </ul>
-			</div>
+            </div>
 
             <!-- content start -->
             <div class="col-md-10">
                 <ol class="breadcrumb">
                   <li><a href="#">Home</a></li>
-                  <li class="active">table</li>
+                  <li class="active">Timeline</li>
                 </ol>
             </div>
-
-            <div class="col-md-10" class="table-group">
-                <div class="row">
-                <div class="col-md-3">
-                    <div class="btn-group" role="group" aria-label="...">
-                      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus icon"></span><a href="/fedora/edit">新增</a></button>
-                      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-floppy-saved icon"></span>保存</button>
-                      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-remove icon"></span>删除</button>
-                    </div>
-                </div>
-             <div class="col-md-3">
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Dropdown
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search for...">
-                  <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Go!</button>
-                  </span>
-                </div>
-            </div>
-        </div>
-     </div>
- 
-        <div class="col-md-10">
-            <div class="panel panel-default">
-              <!-- Default panel contents -->
-              <div class="panel-heading">用户表</div>
-
-              <!-- Table -->
-              <table class="table">
-                <thead>
-                    <tr>
-                        <th><input type="checkbox" name="user" value="sdf" /></th>
-                        <th>uid</th>
-                        <th>username</th>
-                        <th>password</th>
-                        <th>email</th>
-                        <th>stamp</th>
-                        <th>操作</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                     <?php foreach($fedoras as $f): ?>
-                        <td><input type="checkbox" name="user1" value="sdf" /></td> 
-                        <th scope="row"><?php echo e($f->id); ?></th>       
-                        <td><?php echo e($f->name); ?></td> 
-                        <td><?php echo e($f->password); ?></td>
-                        <td><?php echo e($f->email); ?></td>
-                        <td></td>
-                        <td>
-                        <div class="btn-group" role="group" aria-label="...">
-                          <button type="button" class="btn btn-default">
-                          <span class="glyphicon glyphicon-plus icon"></span>
-                          <a href="/fedora/show/<?php echo e($f->id); ?>">查看</a>
-                          </button>
-                          <button type="button" class="btn btn-default">
-                          <span class="glyphicon glyphicon-floppy-saved icon"></span>
-                          <a href="/fedora/edit/<?php echo e($f->id); ?>">编辑</a>
-                          </button>
-                          <button type="button" class="btn btn-default">
-                          <span class="glyphicon glyphicon-remove icon"></span>
-                          <a href="/fedora/delete/<?php echo e($f->id); ?>">删除</a>
-                          </button>
-                        </div>
-                        </td>
-                    </tr>
-                          <?php endforeach; ?>
-                </tbody>
-              </table>
-            </div>
-        </div>
         
-        <div class="col-md-10 col-md-offset-10" >
-            <nav>
-                <ul class="pagination">
-                    <li><a href="#" aria-lable="Previous"><span aria-hidden="true">&laquo;</span></a>
-                    </li>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#" aria-lable="Next"><span aria-hidden="true">&raquo;</span></a>
-                    </li>
-                </ul>
-            </nav>
-
-            <p>总共N条记录</p>
-        </div>
-
+             <div class="col-md-10">
+                <div class="container">
+                    <ul class="timeline">
+                        <li>
+                          <div class="timeline-badge up"><i class="fa fa-thumbs-up"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Time Line Entry #1</h4>
+                            </div>
+                            <div class="timeline-body">
+                              <p>Time line content is placed here...</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                        <!---Time Line Element-->
+                          <div class="timeline-badge down"><i class="fa fa-thumbs-down"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Time Line Entry #2</h4>
+                            </div>
+                            <div class="timeline-body"><!---Time Line Body&Content-->
+                              <p>Time line content is placed here...</p>
+                              <p>And some more Time line content </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li><!---Time Line Element-->
+                          <div class="timeline-badge neutral"><i class="fa fa-navicon"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Time Line Entry #3</h4>
+                            </div>
+                            <div class="timeline-body"><!---Time Line Body&Content-->
+                              <p>Time line content is placed here...</p>
+                              <p>This appears to be a neutral time line enty...</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li><!---Time Line Element-->
+                          <div class="timeline-badge down"><i class="fa fa-thumbs-down"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Time Line Entry #4</h4>
+                            </div>
+                            <div class="timeline-body"><!---Time Line Body&Content-->
+                              <p>Time line content is placed here...</p>
+                              <p>And some more Time line content </p>
+                            </div>
+                          </div>
+                        </li>
+                        
+                        <li><!---Time Line Element-->
+                          <div class="timeline-badge up"><i class="fa fa-thumbs-up"></i></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Time Line Entry #5</h4>
+                            </div>
+                            <div class="timeline-body"><!---Time Line Body&Content-->
+                              <p>Time line content is placed here...</p>
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
  </div>
-		
+        
 
 
 
@@ -343,13 +306,13 @@
 
 
 <div class="row">
-	<div class="col-md-12 text-center">
-		<p>Copyright for@<a href="#"> Litte Ping</a> 2015</p>
-	</div>
+    <div class="col-md-12 text-center">
+        <p>Copyright for@<a href="#"> Litte Ping</a> 2015</p>
+    </div>
 </div>
 
 </div>
-	<script src="/js/jquery-2.1.1.min.js"></script>
+    <script src="/js/jquery-2.1.1.min.js"></script>
     <script src="/js/bootstrap.min.js?v=3.4.0"></script>
     <script src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
