@@ -29,9 +29,12 @@
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 									<span class="clear">
 										<span class="block m-t-xs">
+                                            @if(Auth::guest())
 											<strong class="font-bold">Little Ping</strong>
 										</span>
-										<span class="text-tumed text-xs block">admin<b class="caret"></b></span>
+                                            @else 
+										<span class="text-tumed text-xs block">{{Auth::user()->name}}<b class="caret"></b></span>
+                                            @endif
 									</span>
 								</a>
 								<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -51,7 +54,7 @@
                                 <li><a href="mailbox.html">信箱</a>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a href="/auth/login">安全退出</a>
+                                <li><a href="/auth/logout">安全退出</a>
                                 </li>
 							</ul>
 						</div>
@@ -70,7 +73,7 @@
                     		<li>
                             <li><a href="/fedora/table">用户管理</a>
                             </li>
-                            <li><a href="/fedora/timeline">博客管理</a>
+                            <li><a href="/admin/">博客管理</a>
                             </li>
                             <li><a href="timeline_v2.html">时间轴</a>
                             </li>

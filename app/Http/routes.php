@@ -229,6 +229,39 @@ Route::get('fedora/timeline',function(){
 });
 
 
+//blog page
+Route::get('/blog/',function(){
+	return redirect('/blog/index');
+});
+
+Route::get('/blog/index','BlogController@index');
+Route::get('/blog/{slug}','BlogController@showPost');
+
+
+//admin area
+Route::get('admin',function(){
+	return redirect('/admin/article');
+});
+
+$router->group(['namespace'=>'Admin','middleware'=>'auth'],function(){
+	resource('admin/article','ArticleController');
+	resource('admin/tag','TagController');
+	get('admin/upload','UploadController@index');
+});
+
+
+
+// 认证路由...
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+// 注册路由...
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
+
+Route::get('profile','UserController@profile');
+
+
 
 
 
@@ -254,22 +287,6 @@ Route::get('fedora/timeline',function(){
 // Route::post('/fedora/register', 'Auth\AuthController@postRegister');
 
 // 
-
-
-// 认证路由...
-Route::get('auth/login', 'Auth\AuthController@getLogin');
-Route::post('auth/login', 'Auth\AuthController@postLogin');
-Route::get('auth/logout', 'Auth\AuthController@getLogout');
-// 注册路由...
-Route::get('auth/register', 'Auth\AuthController@getRegister');
-Route::post('auth/register', 'Auth\AuthController@postRegister');
-
-Route::get('profile','UserController@profile');
-
-
-
-
-
 
 
 

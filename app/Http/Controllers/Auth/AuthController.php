@@ -21,9 +21,10 @@ class AuthController extends Controller
     |
     */
    
-
-
-    protected $redirectPath = '/profile';
+    // use AuthenticatesUsers, ThrottlesLogins;
+    protected $redirectAfterLogout = '/auth/login';
+    // protected $redirectTo = '/admin/post';
+    protected $redirectPath = '/fedora/backgroud';
     protected $username = 'name';
 
 

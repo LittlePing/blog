@@ -306,6 +306,7 @@
         
         <div class="col-md-10 col-md-offset-10" >
             <nav>
+              
                 <ul class="pagination">
                     <li><a href="#" aria-lable="Previous"><span aria-hidden="true">&laquo;</span></a>
                     </li>

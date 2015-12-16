@@ -14,8 +14,22 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        // $this->call(UserTableSeeder::class);
+         $this->call(ArticleTableSeeder::class);
 
-        Model::reguard();
+        // Model::reguard();
+    }
+}
+
+
+/**
+* 
+*/
+class ArticleTableSeeder extends Seeder
+{
+    
+    public  function run()
+    {
+        App\Article::truncate();
+        factory(App\Article::class,20)->create();
     }
 }
