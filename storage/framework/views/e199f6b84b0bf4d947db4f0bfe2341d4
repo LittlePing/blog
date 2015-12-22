@@ -24,7 +24,7 @@
 						<li class="navbar-header" >
 							<div class="dropdown profile-element">
 							<span>
-								<img src="/image/288428.jpg" alt="image" class="img-circle" width="60" height="60">
+								<img src="/image/me/IMG_20151205_081903.jpg" alt="image" class="img-circle" width="60" height="60">
 							</span>
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 									<span class="clear">
