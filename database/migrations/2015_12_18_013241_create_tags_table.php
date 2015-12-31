@@ -20,7 +20,7 @@ class CreateTagsTable extends Migration
              $table->string('page_image');
             $table->string('meta_description');
             //使用布局
-            $table->string('layout')->default('fedora.blog.admin.tag.index');
+            $table->string('layout')->default('blog.layouts.index');
             //在文章列表按照时间升序排列博客文章（默认是降序）
             $table->boolean('reverse_direction');
             $table->timestamps();

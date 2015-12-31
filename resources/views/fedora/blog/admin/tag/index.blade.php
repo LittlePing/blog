@@ -26,7 +26,7 @@
 						<th class="hidden-sm">Subtitle</th>
 						<th class="hidden-md">Page Image</th>
 						<th class="hidden-md">Meta Description</th>
-						<th class="hidden-md">Content</th>
+						<th class="hidden-md">Layouot</th>
 						<th class="hidden-sm">Direction</th>
 						<th data-sortable="false">Actions</th>
 					</tr>

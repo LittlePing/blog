@@ -68,14 +68,14 @@
 				 <ul class="nav ">
 				 	<div class="nav navbar-dropdown">
 				  			<li>
-                        	<a href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
+                        	<a href="/"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
                    			 </li>
                     		<li>
                             <li><a href="/fedora/table">用户管理</a>
                             </li>
                             <li><a href="/admin/">博客管理</a>
                             </li>
-                            <li><a href="timeline_v2.html">时间轴</a>
+                            <li><a href="/fedora/timeline">时间轴</a>
                             </li>
                             <li><a href="forum_main.html">论坛</a>
                             </li>
@@ -207,7 +207,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="login.html">
+                            <a href="/auth/logout">
                                 <i class="fa fa-sign-out"></i> 退出
                             </a>
                         </li>
@@ -318,51 +318,51 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_072.jpg" />
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/288754.jpg" />
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_169.jpg" />
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/289411.jpg" />
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_079.jpg" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_081.jpg" />
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_283.jpg" />
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_083.jpg" />
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/289687.jpg" />
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_091.jpg" />
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/289726.jpg" />
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_096.jpg" />
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/289736.jpg" />
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="well">
-                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/ours/IMG_160.jpg" />
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/289726.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="well">
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/289849.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="well">
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/289962.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="well">
+                        <img class="thumbnail img-responsive" alt="Bootstrap template" src="/image/360/290194.jpg" />
                     </div>
                 </div>
             </div>
@@ -371,7 +371,7 @@
 </div>
 	
 	<div class="row">
-	 <div class="col-md-10 col-md-offset-2">
+	 <div class="col-md-12">
 		<div class="bgcontainer" style="margin-top: 10px;">
 		   <!--  <div class="col-md-12 text-center">
 		        <h1>Under Construction</h1>

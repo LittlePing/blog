@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1><a href="/fedora/backgroud">{{config('blog.title')}}</a></h1>
+		<h1><a href="/admin/">{{config('blog.title')}}</a></h1>
 		<h5>Page{{$articles->currentPage()}}of{{$articles->lastPage()}}</h5>
 		<hr>
 		<ul>

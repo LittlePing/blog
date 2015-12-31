@@ -34,8 +34,8 @@
 						<li><a href="#">Contact</a></li>
 					</ul>
 					<div class="btn-toolbar pull-right">
-						<button class="btn navbar-btn" type="button">Login</a>
-						<button  class="btn navbar-btn btn-danger-outline pull-right track-action" type="button">Sign up free</a>
+						<button class="btn navbar-btn" type="button"><a href="/auth/login">Login</a></button>
+						<button  class="btn navbar-btn btn-danger-outline pull-right track-action" type="button"><a href="/auth/register">Sign up free</a></button>
 					</div>
 				</div>
 			</div>

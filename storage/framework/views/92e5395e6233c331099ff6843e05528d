@@ -33,7 +33,7 @@
 
  					<div class="form-group text-center">
  						<div class="github">
- 							<a href="#" role="button" class="btn btn-block track-action   "  >
+ 							<a href="https://github.com" role="button" class="btn btn-block track-action   "  >
  								<h3 class="github-icon blue-icon ">Sign Up With Github</h3>
  							</a>
  						</div>

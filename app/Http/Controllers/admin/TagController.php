@@ -21,7 +21,7 @@ protected $fields = [
         'subtitle'=>'',
         'page_image'=>'',
         'meta_description'=>'', 
-        'layout'=>'fedora.blog.admin.tag.index',
+        'layout'=>'blog.layouts.index',
         'reverse_direction'=> 0 ,
     ];
     /**

@@ -24,15 +24,18 @@
                         <li class="navbar-header" >
                             <div class="dropdown profile-element">
                             <span>
-                                <img src="/image/288428.jpg" alt="image" class="img-circle" width="60" height="60">
+                                <img src="/image/me/IMG_20151205_081903.jpg" alt="image" class="img-circle" width="60" height="60">
                             </span>
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                     <span class="clear">
+                                        @if(Auth::guest())
                                         <span class="block m-t-xs">
                                             <strong class="font-bold">LittlePing</strong>
                                         </span>
-                                        <span class="text-tumed text-xs block">admin<b class="caret"></b></span>
+                                        @else 
+                                        <span class="text-tumed text-xs block">{{Auth::user()->name}}<b class="caret"></b></span>
                                     </span>
+                                        @endif
                                 </a>
                                 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="sr-only">Toggle navigation</span>
@@ -65,14 +68,14 @@
                  <ul class="nav ">
                     <div class="nav navbar-dropdown">
                             <li>
-                            <a href="layouts.html"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
+                            <a href="/"><i class="fa fa-columns"></i> <span class="nav-label">布局</span><span class="label label-danger pull-right">2.0</span></a>
                              </li>
                             <li>
-                            <li><a href="toastr_notifications.html">用户管理</a>
+                            <li><a href="/fedora/table">用户管理</a>
                             </li>
-                            <li><a href="nestable_list.html">博客管理</a>
+                            <li><a href="/admin">博客管理</a>
                             </li>
-                            <li><a href="timeline_v2.html">时间轴</a>
+                            <li><a href="/fedora/timeline">时间轴</a>
                             </li>
                             <li><a href="forum_main.html">论坛</a>
                             </li>
@@ -204,7 +207,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="login.html">
+                            <a href="/auth/logout">
                                 <i class="fa fa-sign-out"></i> 退出
                             </a>
                         </li>
@@ -214,7 +217,7 @@
             <!-- content start -->
             <div class="col-md-10">
                 <ol class="breadcrumb">
-                  <li><a href="#">Home</a></li>
+                  <li><a href="/fedora/backgroud">Home</a></li>
                   <li class="active">Timeline</li>
                 </ol>
             </div>

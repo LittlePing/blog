@@ -1,0 +1,14 @@
+1.搭建域控制器：
+http://wenku.baidu.com/link?url=nQWLyFFDjRYpbNS88W5_lIkXuEhuk1nn_FbIZ5W7T4O6UjqSAzSwhy_a5h7JvfGEuu2VDxjZoZ3-yd-RfyWFkachAUDqDhcAXsiCWD3hQJu
+
+2.搭建web服务器：
+
+http://server.zzidc.com/fwqpz/208.html
+
+3.搭建ftp服务器：
+http://jingyan.baidu.com/article/5bbb5a1b36951f13eaa17956.html
+
+
+4.搭建dns服务器：
+
+http://www.doc88.com/p-314883380291.html

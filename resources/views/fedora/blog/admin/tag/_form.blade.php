@@ -39,7 +39,7 @@
 
 <div class="form-group">
 	<label for="layout" class="col-md-3 control-label">
-		Content
+		Layout
 	</label>
 	<div class="col-md-4">
 		<input type="text" class="form-control" name="layout" id="layout" value="{{$layout}}">
